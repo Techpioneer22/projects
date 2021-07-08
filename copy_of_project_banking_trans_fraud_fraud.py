@@ -102,6 +102,8 @@ pickle_scaler = pickle.load(pickle_in)
 accuracy_pkl = pickle_scaler.fit(X_train, y_train)
 accuracy_scaler = scaler.fit(X_train, y_train)
 print(accuracy_pkl == accuracy_scaler)
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
+reqs = subprocess.check_output([sys.executable, '-m', 'pip', 'freeze'])
 
 #!pip install streamlit
 
