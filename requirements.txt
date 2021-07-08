@@ -6,6 +6,5 @@ scikit_learn
 tensorflow
 tornado
 seaborn
-pip install -c constraints.txt setup.py
 
 
