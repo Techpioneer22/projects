@@ -105,24 +105,24 @@ print(accuracy_pkl == accuracy_scaler)
 
 #!pip install streamlit
 
-!pip install pyngrok
+#!pip install pyngrok
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # import streamlit as st
 
-!ls
+#!ls
 
-!ngrok authtoken xxxxx
+#!ngrok authtoken xxxxx
 
-!ngrok
+#!ngrok
 
-from pyngrok import ngrok
-!streamlit run app.py
-public_url = ngrok.connect(port = '8080')#
+#from pyngrok import ngrok
+#!streamlit run app.py
+#public_url = ngrok.connect(port = '8080')#
 
-!pgrep streamlit
+#!pgrep streamlit
 
-public_url
+#public_url
 
-!ngrok kill
+#!ngrok kill
