@@ -103,7 +103,7 @@ accuracy_pkl = pickle_scaler.fit(X_train, y_train)
 accuracy_scaler = scaler.fit(X_train, y_train)
 print(accuracy_pkl == accuracy_scaler)
 
-!pip install streamlit
+#!pip install streamlit
 
 !pip install pyngrok
 
