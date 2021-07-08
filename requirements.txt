@@ -4,5 +4,6 @@ pandas
 scikit_learn
 tensorflow
 tornado
+seaborn
 
 
