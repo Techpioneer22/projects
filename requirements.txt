@@ -1,11 +1,11 @@
 google.colab
-numpy==1.19.2
+numpy
 streamlit
 pandas
 scikit_learn
 tensorflow
 tornado
-seaborn==0.11.0
+seaborn
 pip install -c constraints.txt setup.py
 
 
