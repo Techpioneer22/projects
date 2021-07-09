@@ -3,7 +3,7 @@ numpy==1.19.2
 streamlit==0.52.1
 pandas==0.25.1
 scikit_learn==0.22
-tensorflow
+tensorflow==2.5.0rcl
 tornado
 seaborn
 
